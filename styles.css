@@ -1,1 +1,8 @@
-/*  your css code here. If applicable */
+#grid{
+	display:grid;
+	color:white;
+
+}
+#grid>div{
+		background:green;
+}
