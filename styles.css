@@ -2,8 +2,22 @@
 	display:grid;
 	color:white;
 	background:green;
+	grid-gap:10px 10px;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
  grid-template-rows:124px 124px 124px 124px 124px;
 }
-#grid>div{
-	grid-column:span 4/auto;
+#grid>div:nth-child(1){
+	grid-column: span 4 /auto;
+}
+#grid>div:nth-child(2){
+	grid-row: span 4 /auto;
+}
+#grid>div:nth-child(4){
+	grid-column: span 2 /auto;
+}
+#grid>div:nth-child(5){
+	grid-column: span 2 /auto;
+}
+#grid>div:nth-child(10){
+	grid-column: span 3 /auto;
 }
