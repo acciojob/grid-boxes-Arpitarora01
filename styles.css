@@ -2,8 +2,8 @@
 	display:grid;
 	color:white;
 	background:green;
- grid-template-rows:124px 124px 124px 124px 124px 124px 124px 124px 124px;
+ grid-template-rows:124px 124px 124px 124px 124px;
 }
 #grid>div{
-	grid-column:auto;
+	grid-column:span 4/auto;
 }
